@@ -1,0 +1,27 @@
+html {
+  background-color: #111111;
+  color: #f0f0f0;
+}
+h1 {
+  display: inline;
+  margin: 50px;
+  font-size: 15pt;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0088ff;
+}
+
+header {
+  padding: 8px;
+  background-color: #333333;
+}
+
+select {
+}
+
+.pull-right {
+  float: right;
+}
