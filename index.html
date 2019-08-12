@@ -6,9 +6,11 @@
 
   <body>
     <header>
-      <h1>Fire Family</h1>
-      <a href="/">Home</a>
-      <a href="">New Product</a>
+      <div class="pull-left">
+        <h1>Fire Family</h1>
+        <a href="/">Home</a>
+        <a href="">New Product</a>
+      </div>
       <div class="pull-right">
         <select name="" id="">
           <option value="">decrement</option>
@@ -20,13 +22,15 @@
       </div>
     </header>
     <section>
-      <p>Search</p>
-      <input type="text" />
-      <button>Search</button>
+      <div class="lower-search">
+        <p>Search</p>
+        <input type="text" class="search-bar" />
+        <button id="search-button">Search</button>
+      </div>
     </section>
     <section>
       <table>
-        <tr>
+        <tr id="header">
           <th>Edit</th>
           <th>Product Name</th>
           <th>Color</th>
@@ -67,7 +71,7 @@
             <button>-</button>
           </td>
           <td>
-            <button>Trash</button>
+            <button class="trash">Trash</button>
           </td>
         </tr>
         <tr>
@@ -99,7 +103,7 @@
             <button>-</button>
           </td>
           <td>
-            <button>Trash</button>
+            <button class="trash">Trash</button>
           </td>
         </tr>
         <tr>
@@ -131,7 +135,7 @@
             <button>-</button>
           </td>
           <td>
-            <button>Trash</button>
+            <button class="trash">Trash</button>
           </td>
         </tr>
       </table>
